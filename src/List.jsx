@@ -29,7 +29,7 @@ class List extends React.Component {
       <div className="col-6 mx-auto">
         {/*Replace the code below to call the title prop*/}
         <p className="h2"></p>
-        <form onSubmit={this.handleSubmit}>{this.props.title}
+        <form onSubmit={this.handleSubmit}>this.props.title
           <label>
             <input
               className="form-control input-sm"
